@@ -89,7 +89,8 @@ body {
 /* Hero */
 .hero-box {
   margin-top: 5em;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../img/hero.webp");
   width: 100%;
   background-repeat: no-repeat;
@@ -198,8 +199,128 @@ body {
   }
 }
 /* Tentang Kami */
+
+/* Info penting */
+
+.fasilitas {
+  padding: 0px 0 150px 0;
+  display: flex;
+  align-items: center;
+  background-color: #000000;
+}
+
+.fasilitas .container > h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.fasilitas .container > h1 span {
+  color: rebeccapurple;
+}
+
+.fasilitas .container > p {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #ffffff;
+}
+
+.fasilitas .fasilitas-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  row-gap: 40px;
+}
+
+.fasilitas .fasilitas-box .box {
+  width: 300px;
+  text-align: center;
+}
+
+.fasilitas .fasilitas-box .box i {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.fasilitas .fasilitas-box .box h3 {
+  margin-bottom: 15px;
+}
+
+.fasilitas .fasilitas-box .box {
+  background-color: #cfcfcf;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.fasilitas .fasilitas-box .box:hover {
+  background-color: rebeccapurple;
+}
+
+/* Info penting */
+
+/* PPDB */
+.kepalasekolah {
+  padding: 50px 0 150px 0;
+}
+
+.kepalasekolah .container > h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.kepalasekolah .container > h1 span {
+  color: rebeccapurple;
+}
+
+.kepalasekolah-box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  align-items: center;
+}
+
+.kepalasekolah-box img {
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.kepalasekolah-box h2 {
+  margin-bottom: 10px;
+}
+
+.kepalasekolah-box p {
+  text-align: start;
+  line-height: 2;
+  margin-bottom: 20px;
+}
+
+.kepalasekolah-box a {
+  text-align: start;
+  text-decoration: none;
+  color: white;
+  background-color: indigo;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.kepalasekolah-box a:hover {
+  background-color: rgb(129, 3, 218);
+}
+
+@media (max-width: 768px) {
+  .kepalasekolah-box {
+    grid-template-columns: 1fr;
+  }
+}
+/* PPDB */
+
 /* Akademik */
 .akademik {
+  padding: 50px 0 150px 0;
   padding-bottom: 100px;
 }
 
